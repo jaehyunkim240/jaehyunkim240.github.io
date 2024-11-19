@@ -2,15 +2,17 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: medium;
     font-weight: 400;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0;           /* Light text */
 }
 
 a {
     text-decoration: none;
-    color: #1565c0;
+    color: #90caf9; /* Light blue links */
 }
 
 a:hover {
-    color: #217ee7;
+    color: #bbdefb; /* Lighter blue for hover effect */
 }
 
 #content {
@@ -18,11 +20,13 @@ a:hover {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) ;
+    transform: translate(-50%, -50%);
     text-align: center;
     max-width: 520px;
     padding: 32px;
     line-height: 1.6em;
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border: 1px solid #333;    /* Optional border to define the content area */
 }
 
 .avatar {
@@ -47,9 +51,9 @@ a:hover {
 }
 
 .icons a {
-    color: black;
+    color: #e0e0e0; /* Light icons */
 }
 
 .icons a:hover {
-    color: #1565c0;
+    color: #90caf9; /* Light blue hover effect for icons */
 }
